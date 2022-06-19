@@ -1,0 +1,138 @@
+Run log: Gitbash
+
+mkdir: cannot create directory ‘localaiap’: File exists
+Requirement already satisfied: jupyterlab in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (3.1.1)
+Requirement already satisfied: tornado>=6.1.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (6.1)
+Requirement already satisfied: jinja2>=2.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (3.0.1)
+Requirement already satisfied: packaging in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (21.0)
+Requirement already satisfied: jupyter-server~=1.4 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (1.10.1)
+Requirement already satisfied: ipython in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (7.25.0)
+Requirement already satisfied: jupyter-core in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (4.7.1)
+Requirement already satisfied: jupyterlab-server~=2.3 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (2.6.1)
+Requirement already satisfied: nbclassic~=0.2 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (0.3.1)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jinja2>=2.1->jupyterlab) (2.0.1)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from packaging->jupyterlab) (2.4.7)
+Requirement already satisfied: requests-unixsocket in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (0.2.0)
+Requirement already satisfied: anyio<4,>=3.1.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (3.3.0)
+Requirement already satisfied: jupyter-client>=6.1.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (6.1.12)
+Requirement already satisfied: terminado>=0.8.3 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (0.10.1)
+Requirement already satisfied: pyzmq>=17 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (22.1.0)
+Requirement already satisfied: Send2Trash in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (1.7.1)
+Requirement already satisfied: argon2-cffi in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (20.1.0)
+Requirement already satisfied: traitlets>=4.2.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (5.0.5)
+Requirement already satisfied: websocket-client in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (1.1.0)
+Requirement already satisfied: nbconvert in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (6.1.0)
+Requirement already satisfied: nbformat in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (5.1.3)
+Requirement already satisfied: ipython-genutils in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (0.2.0)
+Requirement already satisfied: prometheus-client in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (0.11.0)
+Requirement already satisfied: backcall in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.2.0)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (3.0.19)
+Requirement already satisfied: decorator in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (5.0.9)
+Requirement already satisfied: jedi>=0.16 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.18.0)
+Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.4.4)
+Requirement already satisfied: setuptools>=18.5 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (60.8.1)
+Requirement already satisfied: matplotlib-inline in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.1.2)
+Requirement already satisfied: pygments in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (2.9.0)
+Requirement already satisfied: pickleshare in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.7.5)
+Requirement already satisfied: pywin32>=1.0; sys_platform == "win32" in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-core->jupyterlab) (301)
+Requirement already satisfied: jsonschema>=3.0.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab-server~=2.3->jupyterlab) (3.2.0)
+Requirement already satisfied: requests in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab-server~=2.3->jupyterlab) (2.26.0)
+Requirement already satisfied: json5 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab-server~=2.3->jupyterlab) (0.9.6)
+Requirement already satisfied: babel in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab-server~=2.3->jupyterlab) (2.9.1)
+Requirement already satisfied: notebook<7 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbclassic~=0.2->jupyterlab) (6.4.0)
+Requirement already satisfied: urllib3>=1.8 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from requests-unixsocket->jupyter-server~=1.4->jupyterlab) (1.26.6)
+Requirement already satisfied: sniffio>=1.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from anyio<4,>=3.1.0->jupyter-server~=1.4->jupyterlab) (1.2.0)
+Requirement already satisfied: idna>=2.8 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from anyio<4,>=3.1.0->jupyter-server~=1.4->jupyterlab) (3.2)
+Requirement already satisfied: python-dateutil>=2.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jupyter-client>=6.1.1->jupyter-server~=1.4->jupyterlab) (2.8.2)
+Requirement already satisfied: pywinpty>=1.1.0; os_name == "nt" in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from terminado>=0.8.3->jupyter-server~=1.4->jupyterlab) (1.1.3)
+Requirement already satisfied: six in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from argon2-cffi->jupyter-server~=1.4->jupyterlab) (1.16.0)
+Requirement already satisfied: cffi>=1.0.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from argon2-cffi->jupyter-server~=1.4->jupyterlab) (1.14.6)
+Requirement already satisfied: nbclient<0.6.0,>=0.5.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.5.3)
+Requirement already satisfied: defusedxml in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.7.1)
+Requirement already satisfied: pandocfilters>=1.4.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (1.4.3)
+Requirement already satisfied: jupyterlab-pygments in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.1.2)
+Requirement already satisfied: entrypoints>=0.2.2 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.3)
+Requirement already satisfied: testpath in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.5.0)
+Requirement already satisfied: bleach in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (3.3.1)
+Requirement already satisfied: mistune<2,>=0.8.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.8.4)
+Requirement already satisfied: wcwidth in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython->jupyterlab) (0.2.5)
+Requirement already satisfied: parso<0.9.0,>=0.8.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jedi>=0.16->ipython->jupyterlab) (0.8.2)
+Requirement already satisfied: attrs>=17.4.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jsonschema>=3.0.1->jupyterlab-server~=2.3->jupyterlab) (21.2.0)
+Requirement already satisfied: pyrsistent>=0.14.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from jsonschema>=3.0.1->jupyterlab-server~=2.3->jupyterlab) (0.18.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from requests->jupyterlab-server~=2.3->jupyterlab) (2021.5.30)
+Requirement already satisfied: charset-normalizer~=2.0.0; python_version >= "3" in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from requests->jupyterlab-server~=2.3->jupyterlab) (2.0.4)
+Requirement already satisfied: pytz>=2015.7 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from babel->jupyterlab-server~=2.3->jupyterlab) (2021.1)
+Requirement already satisfied: ipykernel in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from notebook<7->nbclassic~=0.2->jupyterlab) (6.0.3)
+Requirement already satisfied: pycparser in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from cffi>=1.0.0->argon2-cffi->jupyter-server~=1.4->jupyterlab) (2.20)
+Requirement already satisfied: nest-asyncio in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbclient<0.6.0,>=0.5.0->nbconvert->jupyter-server~=1.4->jupyterlab) (1.5.1)
+Requirement already satisfied: async-generator in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from nbclient<0.6.0,>=0.5.0->nbconvert->jupyter-server~=1.4->jupyterlab) (1.10)
+Requirement already satisfied: webencodings in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from bleach->nbconvert->jupyter-server~=1.4->jupyterlab) (0.5.1)
+Requirement already satisfied: debugpy<2.0,>=1.0.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from ipykernel->notebook<7->nbclassic~=0.2->jupyterlab) (1.4.1)
+WARNING: You are using pip version 20.2.3; however, version 22.1.2 is available.
+You should consider upgrading via the 'c:\users\han\appdata\local\programs\python\python38\python.exe -m pip install --upgrade pip' command.
+Requirement already up-to-date: virtualenv in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (20.14.1)
+Requirement already satisfied, skipping upgrade: filelock<4,>=3.2 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from virtualenv) (3.7.1)
+Requirement already satisfied, skipping upgrade: platformdirs<3,>=2 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from virtualenv) (2.2.0)
+Requirement already satisfied, skipping upgrade: six<2,>=1.9.0 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from virtualenv) (1.16.0)
+Requirement already satisfied, skipping upgrade: distlib<1,>=0.3.1 in c:\users\han\appdata\local\programs\python\python38\lib\site-packages (from virtualenv) (0.3.2)
+WARNING: You are using pip version 20.2.3; however, version 22.1.2 is available.
+You should consider upgrading via the 'c:\users\han\appdata\local\programs\python\python38\python.exe -m pip install --upgrade pip' command.
+created virtual environment CPython3.8.8.final.0-64 in 1120ms
+  creator CPython3Windows(dest=C:\Users\Han\Documents\AIAP\AIAP 11\Assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\Han\AppData\Local\pypa\virtualenv)
+    added seed packages: Pygments==2.12.0, asttokens==2.0.5, backcall==0.2.0, colorama==0.4.5, debugpy==1.6.0, decorator==5.1.1, entrypoints==0.4, executing==0.8.3, ipykernel==6.15.0, ipython==8.4.0, jedi==0.18.1, jupyter_client==7.3.4, jupyter_core==4.10.0, matplotlib_inline==0.1.3, nest_asyncio==1.5.5, packaging==21.3, parso==0.8.3, pickleshare==0.7.5, pip==22.1.2, prompt_toolkit==3.0.29, psutil==5.9.1, pure_eval==0.2.2, pyparsing==3.0.9, python_dateutil==2.8.2, pywin32==304, pyzmq==23.1.0, setuptools==62.3.4, six==1.16.0, stack_data==0.3.0, tornado==6.1, traitlets==5.3.0, wcwidth==0.2.5, wheel==0.37.1
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+ERROR: Invalid requirement: '_tflow_select=2.3.0=eigen' (from line 4 of requirements.txt)
+Hint: = is not a valid operator. Did you mean == ?
+WARNING: You are using pip version 20.2.3; however, version 22.1.2 is available.
+You should consider upgrading via the 'c:\users\han\appdata\local\programs\python\python38\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: ipykernel in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (6.15.0)
+Requirement already satisfied: jupyter-client>=6.1.12 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (7.3.4)
+Requirement already satisfied: ipython>=7.23.1 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (8.4.0)
+Requirement already satisfied: traitlets>=5.1.0 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (5.3.0)
+Requirement already satisfied: psutil in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (5.9.1)
+Requirement already satisfied: tornado>=6.1 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (6.1)
+Requirement already satisfied: debugpy>=1.0 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (1.6.0)
+Requirement already satisfied: nest-asyncio in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (1.5.5)
+Requirement already satisfied: packaging in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (21.3)
+Requirement already satisfied: matplotlib-inline>=0.1 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (0.1.3)
+Requirement already satisfied: pyzmq>=17 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipykernel) (23.1.0)
+Requirement already satisfied: backcall in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (0.2.0)
+Requirement already satisfied: pickleshare in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (0.7.5)
+Requirement already satisfied: pygments>=2.4.0 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (2.12.0)
+Requirement already satisfied: stack-data in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (0.3.0)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (3.0.29)
+Requirement already satisfied: colorama in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (0.4.5)
+Requirement already satisfied: jedi>=0.16 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (0.18.1)
+Requirement already satisfied: decorator in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (5.1.1)
+Requirement already satisfied: setuptools>=18.5 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from ipython>=7.23.1->ipykernel) (62.3.4)
+Requirement already satisfied: entrypoints in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from jupyter-client>=6.1.12->ipykernel) (0.4)
+Requirement already satisfied: jupyter-core>=4.9.2 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from jupyter-client>=6.1.12->ipykernel) (4.10.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from jupyter-client>=6.1.12->ipykernel) (2.8.2)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from packaging->ipykernel) (3.0.9)
+Requirement already satisfied: parso<0.9.0,>=0.8.0 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel) (0.8.3)
+Requirement already satisfied: pywin32>=1.0 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from jupyter-core>=4.9.2->jupyter-client>=6.1.12->ipykernel) (304)
+Requirement already satisfied: wcwidth in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=7.23.1->ipykernel) (0.2.5)
+Requirement already satisfied: six>=1.5 in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipykernel) (1.16.0)
+Requirement already satisfied: pure-eval in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel) (0.2.2)
+Requirement already satisfied: asttokens in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel) (2.0.5)
+Requirement already satisfied: executing in c:\users\han\documents\aiap\aiap 11\assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z\localaiap\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel) (0.8.3)
+Installed kernelspec localaiap in C:\ProgramData\jupyter\kernels\localaiap
+[W 2022-06-19 19:48:13.229 LabApp] 'file_to_run' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-06-19 19:48:13.229 LabApp] 'file_to_run' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-06-19 19:48:13.234 LabApp] JupyterLab extension loaded from c:\users\han\appdata\local\programs\python\python38\lib\site-packages\jupyterlab
+[I 2022-06-19 19:48:13.234 LabApp] JupyterLab application directory is C:\Users\Han\AppData\Local\Programs\Python\Python38\share\jupyter\lab
+[I 19:48:13.242 NotebookApp] Serving notebooks from local directory: C:\Users\Han\Documents\AIAP\AIAP 11\Assessment 2\aiap11-chan-han-xiang-496z\aiap11-chan-han-xiang-496z
+[I 19:48:13.242 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 19:48:13.242 NotebookApp] http://localhost:8888/?token=9b3d1c99151179502ca43dc9f94e2a706c04f19fd91df7a8
+[I 19:48:13.242 NotebookApp]  or http://127.0.0.1:8888/?token=9b3d1c99151179502ca43dc9f94e2a706c04f19fd91df7a8
+[I 19:48:13.242 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:48:13.285 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Han/AppData/Roaming/jupyter/runtime/nbserver-2936-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=9b3d1c99151179502ca43dc9f94e2a706c04f19fd91df7a8
+     or http://127.0.0.1:8888/?token=9b3d1c99151179502ca43dc9f94e2a706c04f19fd91df7a8
+[W 19:48:15.707 NotebookApp] Notebook eda.ipynb is not trusted
+
